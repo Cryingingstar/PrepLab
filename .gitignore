@@ -1,0 +1,60 @@
+# Unity: keep Assets (including .meta), Packages, and ProjectSettings.
+Library/
+Temp/
+Logs/
+Obj/
+UserSettings/
+MemoryCaptures/
+ProfilerCaptures/
+Build/
+Builds/
+
+# Unity-generated IDE files; keep standalone C++/.NET project files elsewhere.
+/ArenaLab/*.csproj
+/ArenaLab/*.sln
+/ArenaLab/*.slnx
+/ArenaLab/.vsconfig
+/ClientFeatureLab/*.csproj
+/ClientFeatureLab/*.sln
+/ClientFeatureLab/*.slnx
+/ClientFeatureLab/.vsconfig
+
+# Visual Studio, Rider, and local editor state.
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.VC.db
+*.VC.opendb
+ipch/
+
+# .NET and native build/test outputs.
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+TestResults/
+coverage/
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.exe
+
+# OS files and local credentials.
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.keystore
+secrets.json
